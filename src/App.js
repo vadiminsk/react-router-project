@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return <></>;
-}
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+const App = () => {
+  return <div>Hello</div>;
+};
 
 export default App;
