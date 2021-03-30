@@ -15,7 +15,8 @@ const App = () => {
           <Route path='/posts/:id' component={PostItem} />
           <Route path='/posts' component={Posts} />
           <Route path='/profile' component={Profile} />
-          <Route path='/' component={Home} />
+          <Route path='/' exact ncomponent={Home} />
+          <Route render={() => <h3>This page is not exist</h3>} />
         </Switch>
       </div>
     </BrowserRouter>
